@@ -1,0 +1,25 @@
+.hinnadRegion{ 
+    width: 70%;
+    margin: 0px auto 0px auto;
+    padding: 5% 2% 3% 2%;
+}
+.mainHeading{
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+}
+.information{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.listprice{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 500px) {
+    .mainHeading{
+        font-size: 2rem;
+    }
+    
+}

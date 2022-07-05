@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    width: 95%;
+}
+.logoImage{
+    width: 6rem;
+    height: 4rem;
+
+}
+.logoText{
+    color: #cf0606;
+    padding-top: 0.6%;
+    font-size: 2rem;
+}
+.shoppingCart{
+    width: 2.7rem;
+    height: 2.7rem;
+    padding-top: 0.7%;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+@media screen and (max-width : 500px) {
+    .logoText{
+        font-size: 1.5rem;
+        padding-top: 3%;
+    }
+    .header{
+        width: 100%;
+    }
+}
