@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/armastuseraamat.ee/static/css/main.cd104b2f.css",
-    "main.js": "/armastuseraamat.ee/static/js/main.48445e88.js",
+    "main.css": "/armastuseraamat.ee/static/css/main.f70caee4.css",
+    "main.js": "/armastuseraamat.ee/static/js/main.9d7de5a4.js",
     "static/media/coverpage.png": "/armastuseraamat.ee/static/media/coverpage.afd894a2397996084c51.png",
+    "static/media/5.png": "/armastuseraamat.ee/static/media/5.086703fd4b54478af8a3.png",
     "static/media/8.png": "/armastuseraamat.ee/static/media/8.167804000901121ffd85.png",
     "static/media/14.png": "/armastuseraamat.ee/static/media/14.f7c55c260d5908d57e58.png",
     "static/media/kontaktpic1.png": "/armastuseraamat.ee/static/media/kontaktpic1.a77c4bdaeba24bea1038.png",
     "static/media/logo2.png": "/armastuseraamat.ee/static/media/logo2.4a4f59bfe0f30504ee05.png",
     "static/media/cart.png": "/armastuseraamat.ee/static/media/cart.96c73cb49987ccdf1154.png",
     "index.html": "/armastuseraamat.ee/index.html",
-    "main.cd104b2f.css.map": "/armastuseraamat.ee/static/css/main.cd104b2f.css.map",
-    "main.48445e88.js.map": "/armastuseraamat.ee/static/js/main.48445e88.js.map"
+    "main.f70caee4.css.map": "/armastuseraamat.ee/static/css/main.f70caee4.css.map",
+    "main.9d7de5a4.js.map": "/armastuseraamat.ee/static/js/main.9d7de5a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd104b2f.css",
-    "static/js/main.48445e88.js"
+    "static/css/main.f70caee4.css",
+    "static/js/main.9d7de5a4.js"
   ]
 }
