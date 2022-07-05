@@ -20,6 +20,7 @@ const Hinnad = () => {
             </ul>
             <p className='this-info'>*Hinnale lisandub postikulu</p>
             <p className='information'>Raamatu tegemisel on kasutatud kvaliteetseid materjale, mis on loodud kestma just nagu Teie armulugu.</p>
+            <input type="button" className='makePurchase' name="" value="Armastuse raamat" />
             
         </div>
         <Footer/>

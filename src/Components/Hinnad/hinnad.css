@@ -17,6 +17,23 @@
     font-size: 1.5rem;
 }
 
+.makePurchase{
+    border: none;
+    margin: 0px auto 0px auto;
+    padding: 1% 6%;
+    background-color: #cf0606;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 10px;
+
+}
+.makePurchase:hover{
+    border: 1px solid #cf0606;
+    background-color: whitesmoke;
+    color: #cf0606;
+    cursor: pointer;
+}
 @media screen and (min-width: 500px) {
     .mainHeading{
         font-size: 2rem;

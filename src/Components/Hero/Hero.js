@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='container-fluid row bannerRegion '>
         <div className='col-lg-5 clickRegion'>
             <h2 className='enda'>Kirjuta enda Armastuse Raamat</h2>
-            <input type="button" className="btnBanner" value="Sinu armastuse raama" />
+            <input type="button" className="btnBanner" value="Sinu armastuse raamat" />
         </div>
         <div className='col-lg-7'>            
         </div>

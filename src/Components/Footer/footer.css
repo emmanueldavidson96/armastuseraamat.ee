@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .footeritems{
     margin-left: 4%;
@@ -21,4 +22,6 @@
 }
 .footerRegion{
     padding: 2%;
+    background-color: black;
+    color: whitesmoke;
 }

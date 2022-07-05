@@ -6,6 +6,7 @@ import instagram from '../../assets/instagram.png';
 const Footer = () => {
   return (
     <div className='footerRegion'>
+        <hr className='horizontalLine'/>
         <div className='footer'>
         <p className='footeritems'>Kontakt </p>
         <p className='footeritems'>|</p>

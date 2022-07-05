@@ -1,5 +1,5 @@
 .mainKuidas{
-    width: 70%;
+    width: 96%;
     margin: 0px auto 0px auto;
     padding: 3% 2% 3% 2%;
 }
@@ -7,7 +7,7 @@
 .howToMainText{
     font-weight: 900;
     font-size: 4rem;
-    text-align: center;
+
 }
 .howtoparagraph{
     font-weight: 500;
@@ -16,4 +16,27 @@
 .listItem{
     font-weight: 500;
     font-size: 2rem;
+}
+.submitInfor{
+    border: none;
+    margin: 0px auto 0px auto;
+    padding: 1% 5%;
+    background-color: #cf0606;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.submitInfor:hover{
+    border: 1px solid #cf0606;
+    background-color: whitesmoke;
+    color: #cf0606;
+    cursor: pointer;
+}
+.farewell{
+    width: 100%;
+    margin-top: 25%;
+    box-shadow: 5px 5px 20px #ccc;
+    border-radius: 20px;
 }
