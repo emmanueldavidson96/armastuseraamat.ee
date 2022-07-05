@@ -11,7 +11,7 @@ import Muugitingimused from './Components/Muugitingimused/Muugitingimused';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route>
             <Route path='/' element={<Home/>}/> 
