@@ -1,6 +1,4 @@
-.bannerRegion{
-    display: flex;
-    width: 93%;
+.herosection{
     margin: 0 auto 0 auto;
     background-image: url('./../../assets/coverpage.png');
     background-position:  bottom right;
@@ -8,14 +6,23 @@
     background-size: cover;
     height: 700px;
     padding: 0;
+    width: 98.1%;
 }
-
-.clickRegion{
+.toInform{
     padding: 15% 3% 10% 4%;
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     width: 100%;
 }
+.informThem{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+}
+
 .enda{
     font-weight: 700;
     font-size: 2.5rem;
@@ -41,25 +48,9 @@
     color: #cf0606;
     font-size: 1.2rem;
 }
-@media screen and (max-width: 500px) {
-    .bannerRegion{
-        width: 88.7%;
+@media screen and (min-width: 300px ){
+    .herosection{
+        width: 100%;
+        margin: 0px auto 0px auto;
     }
-}
-@media screen and (max-width: 700px) {
-    .bannerRegion{
-        width: 89%;
-    }
-}
-@media screen and (max-width: 900px) {
-    .bannerRegion{
-        width: 90.5%;
-    }
-    
-}
-@media screen and (max-width: 1200px) {
-    .bannerRegion{
-        width: 91%;
-    }
-    
 }

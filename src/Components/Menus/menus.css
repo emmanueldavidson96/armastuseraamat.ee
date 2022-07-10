@@ -1,20 +1,14 @@
-.menus{
-    display: flex;
-    width: 95%;
-}
-
 .rowF{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     width: 100%;
     text-align: center;
     background-color: #d3341f;
-    margin-top: 0.5%;
+    margin: 0px auto 0px auto;
     
 }
-
 .column{
-    flex: 20%;
+    /* flex: 20%; */
     padding: 1%;
     text-decoration: none;
     color: white;
@@ -26,27 +20,9 @@
     text-decoration: none;
     font-size: 20px;
 }
-@media screen and (max-width: 500px) {
-    .column{
-        flex: 100%;
-    }    
-}
-
-@media screen and (max-width: 700px) {
-    .column{
-        flex: 100%;
-    }
-    
-}
-@media screen and (max-width: 900px) {
-    .column{
-        flex: 100%;
-    }
-    
-}
-@media screen and (max-width: 1200px) {
-    .column{
-        flex: 100%;
+@media screen and (min-width: 300px) {
+    .rowF{
+        width: 100%;
     }
     
 }

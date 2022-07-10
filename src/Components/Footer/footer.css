@@ -25,3 +25,13 @@
     background-color: black;
     color: whitesmoke;
 }
+.copyright{
+    margin-top: 2.5%;
+}
+.setStyle{
+    color: white;
+    text-decoration: none;
+}
+.setStyle:hover{
+    text-decoration: none;
+}

@@ -14,7 +14,7 @@ const MainBody = () => {
         <img src={couple} alt="" className='couplePicture'/>
         <input type="button" name="" value="Armastuse raamat" className='submitNow'/>
         <h2 className='mainHeader'>Teie Armastuse Lugu Oma Raamatus! </h2>
-        <p className='coupleparagraph2'>Pane Kirja Oma Armastuse Lugu Paris Raamatusse!</p>
+        <p className='coupleparagraph2'>Pane kirja enda Armastuse lugu päris raamatusse ja jäädvustage oma kaunid mälestused igaveseks.</p>
         <div className='row couplesection'>
             <div className='col-lg-7'>
                 <img src={couplepeople} alt="" className='couplePeople'/>                

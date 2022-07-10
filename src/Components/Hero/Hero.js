@@ -3,14 +3,13 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className='container-fluid row bannerRegion '>
-        <div className='col-lg-5 clickRegion'>
-            <h2 className='enda'>Kirjuta enda Armastuse Raamat</h2>
-            <input type="button" className="btnBanner" value="Sinu armastuse raamat" />
-        </div>
-        <div className='col-lg-7'>            
-        </div>
-
+    <div className='row herosection container-fluid'>
+          <div className='col-lg-5 toInform'>
+            <h2 className='informThem'>Kirjuta enda Armastuse Raamat</h2>
+            <input type="button" className='btnBanner' name="" value="Sinu armastuse raamat" />
+          </div>
+          <div className='col-lg-7'>
+          </div>
     </div>
   )
 }

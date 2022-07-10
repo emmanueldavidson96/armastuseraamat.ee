@@ -3,12 +3,17 @@ import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Menu from '../Menus/Menu'
 import './muugit.css';
-
+import { Link } from 'react-router-dom';
 const Muugitingimused = () => {
   return (
-    <div>
+    <div className='container-fluid'>
         <Header/>
-        <Menu/>
+        <nav className='row rowF'>
+            <Link to="/" className='col-lg-3 column'>Avaleht</Link>
+            <Link to="/kuidastellida" className='col-lg-3 column'>Kuidas tellida</Link>
+            <Link to="/hinnad" className='col-lg-3 column'>Hinnad</Link>
+            <Link to="/kontakt" className='col-lg-3 column'>Kontakt</Link>
+        </nav>
         <div className='muugitRegion'>
             <h2 className='muugitHeader'>Müügitingimused</h2>
             <p className='informationmuugit'>1. Müügitingimuste kehtivus</p>
