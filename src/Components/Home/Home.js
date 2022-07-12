@@ -7,13 +7,26 @@ import Menu from '../Menus/Menu'
 
 const Home = () => {
   return (
-    <div>
-        <Header/>
+
+    <>
+      <div className='container-fluid'>
+        <Header />    
         <Menu/>
-        {/* <Hero/> */}
-        <MainBody />
+        <Hero/>
+        <MainBody/>
         <Footer/>
-    </div>
+      </div>    
+    </>
+
+
+
+    // <div>
+    //     <Header/>
+    //     <Menu/>
+    //     {/* <Hero/> */}
+    //     <MainBody />
+    //     <Footer/>
+    // </div>
   )
 }
 

@@ -22,7 +22,7 @@ const Footer = () => {
             <img src={instagram} className="social-icons" />
             </div>
             <div className='copyright'>
-              <h4>Copyright© 2022 Armastuseraamat.ee </h4>
+              <h4 className='copyrightText'>Copyright© 2022 Armastuseraamat.ee </h4>
             </div>
     </div>
         

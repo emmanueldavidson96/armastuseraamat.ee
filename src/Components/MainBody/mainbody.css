@@ -1,5 +1,5 @@
 .mainbody{
-    width: 95%;
+    width: 100%;
     margin: 0px auto 0px auto;
     text-align: center;
     display: flex;
@@ -22,7 +22,7 @@
     font-weight: 800;
     font-size: 3.8rem;
     text-transform: capitalize;
-    padding: 1% 1% 2% 1%;
+    padding: 1% 1% 5% 1%;
 }
 .couplePicture{
     width: 80%;
@@ -30,11 +30,11 @@
     margin: 0px auto 0px auto;
 }
 .submitNow{
-    width: 40%;
     padding: 1% 6% 1% 6%;
-    margin: 20px auto 50px auto;
+    margin: 20px auto 20px auto;
     background-color: #cf0606;
     border: none;
+    font-size: 1rem;
     color: whitesmoke;
     border-radius: 20px;
     box-shadow: 2px 2px 20px #ccc;
@@ -71,4 +71,22 @@
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 5%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px){
+    .mainHeader{
+        font-size: 2rem;
+    }
+    .mainparagraph{
+        font-size: 1rem;
+    }
+    .secondHeader{
+        font-size: 2rem;
+    }
+    .coupleparagraph2{
+        font-size: 1rem;
+    }
+    .coupleparagraph{
+        font-size: 1rem;
+    }
 }

@@ -6,7 +6,7 @@
     background-size: cover;
     height: 700px;
     padding: 0;
-    width: 98.1%;
+    width: 100%;
 }
 .toInform{
     padding: 15% 3% 10% 4%;
@@ -47,10 +47,4 @@
     background-color: whitesmoke;
     color: #cf0606;
     font-size: 1.2rem;
-}
-@media screen and (min-width: 300px ){
-    .herosection{
-        width: 100%;
-        margin: 0px auto 0px auto;
-    }
 }

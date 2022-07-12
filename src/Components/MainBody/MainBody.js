@@ -5,7 +5,7 @@ import couplepeople from '../../assets/8.png';
 
 const MainBody = () => {
   return (
-    <div className='mainbody container-fluid'>
+    <div className='mainbody'>
         <h1 className='mainHeader'>Kirjuta Oma Armastuse Lugu</h1>
         <p className='mainparagraph'>Armastuse raamat, mis jääb hinge paitama aastateks. 
             Lõbusad seiklused ja mälestused on väärt kirja panemist- teie personaalsesse raamatusse.

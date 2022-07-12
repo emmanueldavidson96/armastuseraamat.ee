@@ -27,6 +27,8 @@
 }
 .copyright{
     margin-top: 2.5%;
+    text-align: center;
+    
 }
 .setStyle{
     color: white;
@@ -34,4 +36,7 @@
 }
 .setStyle:hover{
     text-decoration: none;
+}
+.copyrightText{
+    font-size: 1.3rem;
 }

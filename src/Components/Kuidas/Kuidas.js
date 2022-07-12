@@ -15,7 +15,7 @@ const Kuidas = () => {
             <Link to="/hinnad" className='col-lg-3 column'>Hinnad</Link>
             <Link to="/kontakt" className='col-lg-3 column'>Kontakt</Link>
         </nav>
-        <div className='mainKuidas container-fluid row'>
+        <div className='mainKuidas row'>
             <div className='col-lg-7'>
             <h2 className='howToMainText'>Kuidas tellida</h2>
             <p className='howtoparagraph'>Sama lihtne kui 123</p>

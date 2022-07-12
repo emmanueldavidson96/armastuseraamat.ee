@@ -15,7 +15,7 @@ const Hinnad = () => {
             <Link to="/hinnad" className='col-lg-3 column'>Hinnad</Link>
             <Link to="/kontakt" className='col-lg-3 column'>Kontakt</Link>
         </nav>
-        <div className='hinnadRegion container-fluid'>
+        <div className='hinnadRegion'>
             <h2 className='mainHeading'>LISAINFO:</h2>
             <p className='information'>Raamatu suurus: 21 x 15 cm</p>
             <p className='information'>Raamatut on võimalik valida kaht eri tüüpi:</p>

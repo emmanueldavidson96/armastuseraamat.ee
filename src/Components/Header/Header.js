@@ -6,8 +6,8 @@ import cart from '../../assets/cart.png';
 
 const Header = () => {
   return (
-    <div className='header container-fluid'>
-        <img src={logo} alt="" className='logoImage'/>
+    <div className='header'>
+        <img src={logo} alt="logo" className='logoImage'/>
         <h2 className='logoText'>Armastuseraamat</h2>
         <img src={cart} alt="" className='shoppingCart' />
     </div>

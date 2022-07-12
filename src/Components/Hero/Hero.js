@@ -3,7 +3,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className='row herosection container-fluid'>
+    <div className='row herosection'>
           <div className='col-lg-5 toInform'>
             <h2 className='informThem'>Kirjuta enda Armastuse Raamat</h2>
             <input type="button" className='btnBanner' name="" value="Sinu armastuse raamat" />
