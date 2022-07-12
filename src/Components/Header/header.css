@@ -8,8 +8,9 @@
 }
 .logoText{
     color: #cf0606;
-    padding-top: 0.6%;
-    font-size: 2rem;
+    padding-top: 1%;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
 }
 .shoppingCart{
     width: 2.7rem;
@@ -20,21 +21,6 @@
     right: 5%;
     cursor: pointer;
 }
-@media screen and (max-width: 300px) {
-    .logoImage{
-        width: 2rem;
-        height: 2rem;
-    }
-    .logoText{
-        font-size: .7rem;
-        padding-top: 2.5%;
-    }
-    .shoppingCart{
-        width: 1rem;
-        height: 1rem;
-        margin-top: 2.5%;
-    }
-}
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .logoImage{
@@ -42,7 +28,7 @@
         height: 2.5rem;
     }
     .logoText{
-        font-size: 1rem;
+        font-size: 1.7rem;
         padding-top: 2.5%;
     }
     .shoppingCart{
@@ -58,8 +44,8 @@
         height: 3.2rem;
     }
     .logoText{
-        font-size: 1.2rem;
-        padding-top: 1.4%;
+        font-size: 1.7rem;
+        padding-top: 1.6%;
     }
     .shoppingCart{
         width: 1.6rem;
@@ -74,8 +60,8 @@
         height: 3.2rem;
     }
     .logoText{
-        font-size: 1.2rem;
-        padding-top: 1.4%;
+        font-size: 1.7rem;
+        padding-top: 1.9%;
     }
     .shoppingCart{
         width: 1.6rem;
