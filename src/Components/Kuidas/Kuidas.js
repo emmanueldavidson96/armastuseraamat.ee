@@ -15,22 +15,21 @@ const Kuidas = () => {
             <Link to="/hinnad" className='col-lg-3 column'>Hinnad</Link>
             <Link to="/kontakt" className='col-lg-3 column'>Kontakt</Link>
         </nav>
+        <h2 className='howToMainText'>Kuidas tellida</h2>
         <div className='mainKuidas row'>
+            
             <div className='col-lg-7'>
-            <h2 className='howToMainText'>Kuidas tellida</h2>
-            <p className='howtoparagraph'>Sama lihtne kui 123</p>
-            <ul className='listedInstructions'>
-                <li className='listItem'>Loo enda ja partneri karakter</li>
-                <li className='listItem'>Muuda raamatu lehe teksti: kirjuta sinna personaalne mõte või sõnum mõnest sündmusest, mis hinge on puudutanud
-                </li>
-                <li className='listItem'>MMeie paneme kokku vastavalt sinu loodud mustandile päris raamatu, trükime selle ära ja saadame sinu poolt valitud postiautomaati.
-                </li>
-            </ul>
+            
+            <p className='howtoparagraph'>Tellimine on sama lihtne nagu hingamine.</p>
+            <p className='howtoparagraph'>Loo enda ja partneri karakter.</p>
+            <p className='howtoparagraph'>Muuda raamatu lehe teksti: kirjuta sinna personaalne mõte või sõnum mõnest sündmusest, mis hinge on puudutanud.</p>
+            <p className='howtoparagraph'>Meie paneme kokku vastavalt sinu loodud mustandile päris raamatu, trükime selle ära ja saadame sinu poolt valitud postiautomaati.</p>
+            
             </div>
             <div className='col-lg-5'>
                 <img src={farewell} alt="" className='farewell'/>
             </div>
-            <input className='submitInfor' type="" name="" value="Armastuse raamat" />
+            <input className='submitInfor' type="" name="" value="Alusta raamatuga siit" />
             
             
         </div>

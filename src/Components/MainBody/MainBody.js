@@ -12,7 +12,7 @@ const MainBody = () => {
         </p>
         <h1 className='secondHeader'>Jäädvusta oma armulugu raamatusse</h1>
         <img src={couple} alt="" className='couplePicture'/>
-        <input type="button" name="" value="Armastuse raamat" className='submitNow'/>
+        <input type="button" name="" value="Alusta armastuse raamatuga" className='submitNow'/>
         <h2 className='mainHeader'>Teie Armastuse Lugu Oma Raamatus! </h2>
         <p className='coupleparagraph2'>Pane kirja enda Armastuse lugu päris raamatusse ja jäädvustage oma kaunid mälestused igaveseks.</p>
         <div className='row couplesection'>

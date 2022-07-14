@@ -16,7 +16,7 @@ const Hinnad = () => {
             <Link to="/kontakt" className='col-lg-3 column'>Kontakt</Link>
         </nav>
         <div className='hinnadRegion'>
-            <h2 className='mainHeading'>LISAINFO:</h2>
+            <h2 className='mainHeading'>Lisainfo:</h2>
             <p className='information'>Raamatu suurus: 21 x 15 cm</p>
             <p className='information'>Raamatut on võimalik valida kaht eri tüüpi:</p>
             <ul>
@@ -25,7 +25,7 @@ const Hinnad = () => {
             </ul>
             <p className='this-info'>*Hinnale lisandub postikulu</p>
             <p className='information'>Raamatu tegemisel on kasutatud kvaliteetseid materjale, mis on loodud kestma just nagu Teie armulugu - Igavesti</p>
-            <input type="button" className='makePurchase' name="" value="Armastuse raamat" />
+            <input type="button" className='makePurchase' name="" value="Alusta armastuse raamatuga" />
             
         </div>
         <Footer/>

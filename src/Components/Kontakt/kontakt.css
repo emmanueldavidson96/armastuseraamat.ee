@@ -35,6 +35,10 @@ textarea{
 }
 .information5{
     font-weight: 700;
+    font-size: 1.5rem;
+}
+.fillUp{
+    padding-left: 7%;
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .kontaktheader{

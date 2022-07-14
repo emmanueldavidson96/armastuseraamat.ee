@@ -26,7 +26,7 @@ const Kontakt = () => {
                 <img src="" alt="" className='' />
                 <img src="" alt="" className=''/>
             </div>
-            <div className='col-lg-7'>      
+            <div className='col-lg-7 fillUp'>      
                 <h2 className='kontaktheader'>Võta meiega ühendust</h2>
                 <label className='information5' for="nimi">Nimi:*</label>
                 <input className='kontaktinput' type="text" name="" value="" />

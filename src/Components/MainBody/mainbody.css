@@ -8,19 +8,20 @@
 }
 .mainHeader{
     font-weight: 800;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     text-transform: capitalize;
+    padding-top: 4%;
 }
 .mainparagraph{
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 70%;
     margin: 0px auto 0px auto;
-    padding: 1% 1% 2% 1%;
+    padding: 1% 1% 7% 1%;
 }
 .secondHeader{
     font-weight: 800;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     text-transform: capitalize;
     padding: 1% 1% 5% 1%;
 }
@@ -28,6 +29,7 @@
     width: 80%;
     border-radius: 30px;
     margin: 0px auto 0px auto;
+    box-shadow: 10px 10px 25px #ccc;
 }
 .submitNow{
     padding: 1% 6% 1% 6%;
@@ -37,7 +39,7 @@
     font-size: 1rem;
     color: whitesmoke;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px #ccc;
+    box-shadow: 5px 5px 20px #ccc;
 }
 .submitNow:hover{
     background-color: whitesmoke;
@@ -60,16 +62,16 @@
 }
 .couplePeopleText{
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 .coupleparagraph{
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 2;
+    font-size: 1rem;
+    line-height: 2.5;
 }
 .coupleparagraph2{
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 5%;
 }
 

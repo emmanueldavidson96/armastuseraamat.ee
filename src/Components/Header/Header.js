@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className='header'>
         <img src={logo} alt="logo" className='logoImage'/>
-        <h2 className='logoText'>Armastuseraamat</h2>
+        <h2 className='logoText'>Armastuse Raamat</h2>
         <img src={cart} alt="" className='shoppingCart' />
     </div>
   )
