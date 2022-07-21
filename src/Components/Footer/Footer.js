@@ -9,9 +9,9 @@ const Footer = () => {
     <div className='footerRegion'>
         <hr className='horizontalLine'/>
         <div className='footer'>
-        <p className='footeritems'>Kontakt </p>
+        <p className='footeritems'><Link to="/kontakt" className='setStyle'>Kontakt</Link></p>
         <p className='footeritems'>|</p>
-        <p className='footeritems'>Kuidas tellida</p>
+        <p className='footeritems'><Link to="/kuidastellida" className='setStyle'>Kuidas tellida</Link></p>
         <p className='footeritems'>|</p>
         <p className="footeritems"><Link to="/muugitingimused" className='setStyle'>Müügitingimused</Link></p>
     </div>
